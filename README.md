@@ -21,6 +21,6 @@ xcpp is quick and efficient compilation and execution shortcut for linux
 ## Usage
 **To run xcpp**
 `xcpp [PATH TO CPP FILE]`
-<p align="center">
-![Kiohana Logo](https://github.com/hngocuyen/kiohanav2/blob/main/img/panel.png)
-</p>
+#
+> ![Example](https://github.com/hngocuyen/xcpp/blob/main/run.png)
+#
