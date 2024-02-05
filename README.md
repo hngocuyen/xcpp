@@ -21,7 +21,8 @@ xcpp is quick and efficient compilation and execution shortcut for linux
 # Usage
 **To run xcpp**
 ```sh
-xcpp [PATH TO CPP FILE]```
+xcpp [PATH TO CPP FILE]
+```
 
 # Example
 ```sh
