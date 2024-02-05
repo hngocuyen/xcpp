@@ -26,18 +26,13 @@ xcpp [PATH TO CPP FILE]
 
 # Example
 ```sh
-┌──(kali㉿ngocuyencoder)-[~/Desktop/C]
-└─$ cat hello.cpp 
-
-// Your First C++ Program
-
+------------------------------------
 #include <iostream>
-
 int main() {
     std::cout << "hello world";
     return 0;
 }
-                                                                                                                                                                                                                                           
+------------------------------------                                                                                                                                                                                                       
 ┌──(kali㉿ngocuyencoder)-[~/Desktop/C]
 └─$ xcpp hello.cpp
 hello world                              
