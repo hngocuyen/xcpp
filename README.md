@@ -18,7 +18,7 @@ xcpp is quick and efficient compilation and execution shortcut for linux
   * IF YOU USED OTHER LINUX OPERATING SYSTEM, REPLACE "apt-get" TO INSTALL [apt-get => yum (centos)] 
   * IT IS NOT INTERPRETER , ONLY SHORTCUT
 
-## Usage
+# Usage
 **To run xcpp**
 ```sh
 xcpp [PATH TO CPP FILE]```
