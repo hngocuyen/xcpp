@@ -20,7 +20,23 @@ xcpp is quick and efficient compilation and execution shortcut for linux
 
 ## Usage
 **To run xcpp**
-`xcpp [PATH TO CPP FILE]`
-<div align="center">
-  <img src="https://github.com/hngocuyen/xcpp/blob/main/run.png" alt="Example">
-</div>
+```sh
+xcpp [PATH TO CPP FILE]```
+## Example
+```sh
+┌──(kali㉿ngocuyencoder)-[~/Desktop/C]
+└─$ cat hello.cpp 
+
+// Your First C++ Program
+
+#include <iostream>
+
+int main() {
+    std::cout << "hello world";
+    return 0;
+}
+                                                                                                                                                                                                                                           
+┌──(kali㉿ngocuyencoder)-[~/Desktop/C]
+└─$ xcpp hello.cpp
+hello world                              
+```
