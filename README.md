@@ -1,11 +1,11 @@
 # ngocuyencoder 
 ***XCPP***
 
-xcpp is quick and efficient compilation and execution shortcut
+xcpp is quick and efficient compilation and execution shortcut for linux 
 
 ## Building xcpp
-* U need install g++
-  * :
+* FOR LINUX PLATFORM
+  * UBUNTU/DEBIAN:
 
     | Permission| Setup |
     | --- | --- |
@@ -13,10 +13,10 @@ xcpp is quick and efficient compilation and execution shortcut
     | `sudo` | git clone https://github.com/hngocuyen/xcpp && cd xcpp & g++ -o xcpp xcpp.cpp |
     | `sudo` | sudo chmod +x xcpp && sudo mv xcpp $PREFIX/bin |
 
-* Build
-  * 
-  * 
-  * 
+* Bug?
+  * TERMUX NOT SUPPORT
+  * IF YOU USED OTHER LINUX OPERATING SYSTEM, REPLACE "apt-get" TO INSTALL [apt-get => yum (centos)] 
+  * IT IS NOT INTERPRETER , ONLY SHORTCUT
 
 ## Usage
 **To run xcpp**
