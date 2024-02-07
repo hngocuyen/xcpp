@@ -9,7 +9,7 @@ xcpp is quick and efficient compilation and execution shortcut for linux
 
     | Permission| Setup |
     | --- | --- |
-    | `sudo` | sudo apt-get update && sudo apt-get install g++ && sudo install git|
+    | `sudo` | sudo apt-get update -y && sudo apt-get install g++ -y && sudo apt install git -y |
     | `sudo` | git clone https://github.com/hngocuyen/xcpp && cd xcpp & g++ -o xcpp xcpp.cpp |
     | `sudo` | sudo chmod +x xcpp && sudo mv xcpp $PREFIX/bin |
 
