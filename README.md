@@ -1,5 +1,5 @@
 # ngocuyencoder 
-***XCPP***
+***                                        XCPP                                           ***
 
 xcpp is quick and efficient compilation and execution shortcut for linux 
 
