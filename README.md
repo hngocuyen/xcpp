@@ -1,7 +1,7 @@
 # ngocuyencoder 
 ***XCPP***
 
-xcpp is quick and efficient compilation and execution shortcut for linux 
+xcpp is auto build and run for linux
 
 ## Building xcpp
 * FOR LINUX PLATFORM
@@ -14,7 +14,6 @@ xcpp is quick and efficient compilation and execution shortcut for linux
     | `sudo` | sudo chmod +x xcpp && sudo mv xcpp $PREFIX/bin |
 
 * Bug?
-  * TERMUX NOT SUPPORT
   * IF YOU USED OTHER LINUX OPERATING SYSTEM, REPLACE "apt-get" TO INSTALL [apt-get => yum (centos)] 
   * IT IS NOT INTERPRETER , ONLY SHORTCUT
 
@@ -35,5 +34,16 @@ int main() {
 ------------------------------------                                                                                                                                                                                                       
 ┌──(kali㉿ngocuyencoder)-[~/Desktop/C]
 └─$ xcpp hello.cpp
-hello world                              
+hello world
+
+------------------------------------
+#include <stdio.h>
+int main() {
+    printf << "hello world";
+    return 0;
+}
+------------------------------------                                                                                                                                                                                                       
+┌──(kali㉿ngocuyencoder)-[~/Desktop/C]
+└─$ xcpp hello.c
+hello world                          
 ```
